@@ -1,4 +1,7 @@
 package miu.edu.repo;
 
-public class ReviewRepo {
+import miu.edu.entity.Review;
+import org.springframework.data.repository.CrudRepository;
+
+public interface ReviewRepo extends CrudRepository<Review, Integer> {
 }

@@ -1,4 +1,4 @@
 package miu.edu.service;
 
-public class ProductService {
+public interface ProductService {
 }

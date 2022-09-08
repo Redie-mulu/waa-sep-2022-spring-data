@@ -1,4 +1,7 @@
 package miu.edu.repo;
 
-public class CategoryRepo {
+import miu.edu.entity.Category;
+import org.springframework.data.repository.CrudRepository;
+
+public interface CategoryRepo extends CrudRepository<Category, Integer> {
 }

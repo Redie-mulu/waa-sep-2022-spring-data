@@ -1,4 +1,4 @@
 package miu.edu.service;
 
-public class AddressService {
+public interface AddressService {
 }
