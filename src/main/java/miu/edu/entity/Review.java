@@ -2,15 +2,13 @@ package miu.edu.entity;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Data
 @Entity
 public class Review {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String comment;
     @ManyToOne()
